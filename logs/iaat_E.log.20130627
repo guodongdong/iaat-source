@@ -1,0 +1,8442 @@
+2013-06-27 15:28:47,723 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127718",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 10,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 10
+  },
+  "result": [
+    {
+      "name": "tom.com",
+      "size": 26,
+      "rate": 0.68421054
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "rate": 0.05263158
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "rate": 0.02631579
+    }
+  ]
+}
+2013-06-27 15:28:47,760 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127759",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 6,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 6
+  },
+  "result": [
+    {
+      "name": "baidu.com",
+      "size": 9,
+      "rate": 0.47368422
+    },
+    {
+      "name": "qq.com",
+      "size": 5,
+      "rate": 0.2631579
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "rate": 0.10526316
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "rate": 0.05263158
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "rate": 0.05263158
+    }
+  ]
+}
+2013-06-27 15:28:47,787 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127786",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 38,
+    "children": null
+  }
+}
+2013-06-27 15:28:47,795 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127795",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 19,
+    "children": null
+  }
+}
+2013-06-27 15:28:47,815 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127807",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "name": "sina.com.cn",
+      "size": 1,
+      "children": [
+        "sinaimg.cn"
+      ]
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "jiayuan.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "kanshu.com",
+      "size": 1,
+      "children": [
+        "sogou.com"
+      ]
+    },
+    {
+      "name": "sina.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tomonline-inc.com",
+      "size": 1,
+      "children": [
+        "hjsm.net"
+      ]
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "children": [
+        "weibo.cn"
+      ]
+    },
+    {
+      "name": "163.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qzoneapp.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "soso.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qq.com",
+      "size": 22,
+      "children": [
+        "tom.com",
+        null,
+        "58.com",
+        "qzoneapp.com"
+      ]
+    },
+    {
+      "name": "jjwxc.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "zol.com",
+      "size": null,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tom.com",
+      "size": 38,
+      "children": [
+        "ifeng.com",
+        null,
+        "easou.com",
+        "sina.cn",
+        "taobao.com",
+        "hongxiu.com",
+        "sohu.com",
+        "zol.com",
+        "jjwxc.com",
+        "soso.com"
+      ]
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "weibo.cn",
+      "size": 1,
+      "children": [
+        "sina.com.cn"
+      ]
+    },
+    {
+      "name": "hongxiu.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sinaimg.cn",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "hjsm.net",
+      "size": 1,
+      "children": [
+        "cmread.com"
+      ]
+    },
+    {
+      "name": "baidu.com",
+      "size": 10,
+      "children": [
+        "sina.com",
+        "tom.com"
+      ]
+    },
+    {
+      "name": "sohu.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    }
+  ]
+}
+2013-06-27 15:28:47,983 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318127946",
+  "error": null,
+  "paging": null,
+  "result": {
+    "LOGS": [
+      {
+        "name": "Tencent-Time",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "Tencent-Total",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "Tencent-Outer",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "Tom",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "Xpress-Browser",
+        "value": 5,
+        "children": []
+      }
+    ],
+    "CHANNEL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-7",
+        "value": 39,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-7",
+        "value": 40,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-7",
+        "value": 41,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-7",
+        "value": 42,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-10",
+        "value": 43,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-10",
+        "value": 44,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-10",
+        "value": 45,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-1",
+        "value": 46,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-1",
+        "value": 47,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-1",
+        "value": 48,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-1",
+        "value": 49,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-12",
+        "value": 50,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-12",
+        "value": 51,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-13",
+        "value": 52,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-13",
+        "value": 53,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-13",
+        "value": 54,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-14",
+        "value": 55,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-14",
+        "value": 56,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-14",
+        "value": 57,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-15",
+        "value": 58,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-15",
+        "value": 59,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-16",
+        "value": 60,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-16",
+        "value": 61,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-20",
+        "value": 62,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-20",
+        "value": 63,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-20",
+        "value": 64,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-20",
+        "value": 65,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-2",
+        "value": 66,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-2",
+        "value": 67,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-2",
+        "value": 68,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-3",
+        "value": 69,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-3",
+        "value": 70,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-3",
+        "value": 71,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-4",
+        "value": 72,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-4",
+        "value": 73,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-4",
+        "value": 74,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-5",
+        "value": 75,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-5",
+        "value": 76,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-5",
+        "value": 77,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-6",
+        "value": 78,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-6",
+        "value": 79,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-6",
+        "value": 80,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-8",
+        "value": 81,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-8",
+        "value": 82,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-8",
+        "value": 83,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-9",
+        "value": 84,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-9",
+        "value": 85,
+        "children": []
+      },
+      {
+        "name": "S60V5-preload",
+        "value": 86,
+        "children": []
+      },
+      {
+        "name": "S60V5-Tencent",
+        "value": 87,
+        "children": []
+      },
+      {
+        "name": "S60V5-Noki.mobi",
+        "value": 88,
+        "children": []
+      },
+      {
+        "name": "S60V5-Ovistore",
+        "value": 89,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other",
+        "value": 90,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other1",
+        "value": 91,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other2",
+        "value": 92,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3",
+        "value": 93,
+        "children": []
+      },
+      {
+        "name": "Symbian3-preload",
+        "value": 94,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Tencent",
+        "value": 95,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Noki.mobi",
+        "value": 96,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Ovistore",
+        "value": 97,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other",
+        "value": 98,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other1",
+        "value": 99,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other2",
+        "value": 100,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3",
+        "value": 101,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "OPERATOR": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "移通",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "电信",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "联通",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "网通",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "铁通",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "移动",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "方正宽带",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "教育网",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "歌华",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "电信通",
+        "value": 10,
+        "children": []
+      },
+      {
+        "name": "有线通",
+        "value": 11,
+        "children": []
+      },
+      {
+        "name": "广电",
+        "value": 12,
+        "children": []
+      },
+      {
+        "name": "长城宽带",
+        "value": 13,
+        "children": []
+      },
+      {
+        "name": "航数宽网",
+        "value": 14,
+        "children": []
+      },
+      {
+        "name": "油田宽带",
+        "value": 15,
+        "children": []
+      },
+      {
+        "name": "蓝波宽带",
+        "value": 16,
+        "children": []
+      },
+      {
+        "name": "视讯宽带",
+        "value": 17,
+        "children": []
+      },
+      {
+        "name": "世纪互联",
+        "value": 18,
+        "children": []
+      },
+      {
+        "name": "华数宽带",
+        "value": 19,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "PLATFORMTERMINAL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": [
+          {
+            "name": "全部",
+            "value": -1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "s40",
+        "value": 1,
+        "children": [
+          {
+            "name": "gt-i6330c",
+            "value": 12,
+            "children": []
+          },
+          {
+            "name": "nokia2220s",
+            "value": 14,
+            "children": []
+          },
+          {
+            "name": "nokia2322c",
+            "value": 15,
+            "children": []
+          },
+          {
+            "name": "nokia2690",
+            "value": 16,
+            "children": []
+          },
+          {
+            "name": "nokia2700c",
+            "value": 17,
+            "children": []
+          },
+          {
+            "name": "nokia2710c",
+            "value": 18,
+            "children": []
+          },
+          {
+            "name": "nokia2730c",
+            "value": 19,
+            "children": []
+          },
+          {
+            "name": "nokia2730c-1",
+            "value": 20,
+            "children": []
+          },
+          {
+            "name": "nokia3030",
+            "value": 21,
+            "children": []
+          },
+          {
+            "name": "nokia3050",
+            "value": 22,
+            "children": []
+          },
+          {
+            "name": "nokia3110c",
+            "value": 23,
+            "children": []
+          },
+          {
+            "name": "nokia3208c",
+            "value": 24,
+            "children": []
+          },
+          {
+            "name": "nokia3720c",
+            "value": 25,
+            "children": []
+          },
+          {
+            "name": "nokia5130",
+            "value": 27,
+            "children": []
+          },
+          {
+            "name": "nokia5130c-2",
+            "value": 28,
+            "children": []
+          },
+          {
+            "name": "nokia5132",
+            "value": 29,
+            "children": []
+          },
+          {
+            "name": "nokia5200",
+            "value": 30,
+            "children": []
+          },
+          {
+            "name": "nokia5300",
+            "value": 38,
+            "children": []
+          },
+          {
+            "name": "nokia5330",
+            "value": 42,
+            "children": []
+          },
+          {
+            "name": "nokia6208c",
+            "value": 67,
+            "children": []
+          },
+          {
+            "name": "nokia6280",
+            "value": 71,
+            "children": []
+          },
+          {
+            "name": "nokia6300",
+            "value": 72,
+            "children": []
+          },
+          {
+            "name": "nokia6303c",
+            "value": 73,
+            "children": []
+          },
+          {
+            "name": "nokia6303ci",
+            "value": 74,
+            "children": []
+          },
+          {
+            "name": "nokia6500s-1",
+            "value": 75,
+            "children": []
+          },
+          {
+            "name": "nokia7230",
+            "value": 81,
+            "children": []
+          },
+          {
+            "name": "nokia7610s",
+            "value": 82,
+            "children": []
+          },
+          {
+            "name": "nokia7610supernova",
+            "value": 83,
+            "children": []
+          },
+          {
+            "name": "nokiac1-01",
+            "value": 84,
+            "children": []
+          },
+          {
+            "name": "nokiac1-02",
+            "value": 85,
+            "children": []
+          },
+          {
+            "name": "nokiac1-03",
+            "value": 86,
+            "children": []
+          },
+          {
+            "name": "nokiac2-00",
+            "value": 87,
+            "children": []
+          },
+          {
+            "name": "nokiac2-01",
+            "value": 88,
+            "children": []
+          },
+          {
+            "name": "nokiac2-05",
+            "value": 89,
+            "children": []
+          },
+          {
+            "name": "nokiac2-07",
+            "value": 90,
+            "children": []
+          },
+          {
+            "name": "nokiac2-08",
+            "value": 91,
+            "children": []
+          },
+          {
+            "name": "nokiac3-00",
+            "value": 92,
+            "children": []
+          },
+          {
+            "name": "nokiac3-01",
+            "value": 93,
+            "children": []
+          },
+          {
+            "name": "nokian70-1",
+            "value": 116,
+            "children": []
+          },
+          {
+            "name": "nokian72",
+            "value": 117,
+            "children": []
+          },
+          {
+            "name": "nokiax2-00",
+            "value": 147,
+            "children": []
+          },
+          {
+            "name": "nokiax2-01",
+            "value": 148,
+            "children": []
+          },
+          {
+            "name": "nokiax2-03",
+            "value": 149,
+            "children": []
+          },
+          {
+            "name": "nokiax2-05",
+            "value": 150,
+            "children": []
+          },
+          {
+            "name": "nokiax3-00",
+            "value": 151,
+            "children": []
+          },
+          {
+            "name": "nokiax3-02",
+            "value": 152,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60V3",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "S60V5",
+        "value": 3,
+        "children": [
+          {
+            "name": "(c)nokia5630d-1",
+            "value": 1,
+            "children": []
+          },
+          {
+            "name": "(c)nokia6700s",
+            "value": 2,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae52-1",
+            "value": 3,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72",
+            "value": 4,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72-1",
+            "value": 5,
+            "children": []
+          },
+          {
+            "name": "(c)nokian78",
+            "value": 6,
+            "children": []
+          },
+          {
+            "name": "(c)nokian85",
+            "value": 7,
+            "children": []
+          },
+          {
+            "name": "(c)nokianxx",
+            "value": 8,
+            "children": []
+          },
+          {
+            "name": "e63",
+            "value": 9,
+            "children": []
+          },
+          {
+            "name": "e66",
+            "value": 10,
+            "children": []
+          },
+          {
+            "name": "e71",
+            "value": 11,
+            "children": []
+          },
+          {
+            "name": "n96",
+            "value": 13,
+            "children": []
+          },
+          {
+            "name": "nokia5320(19.01)",
+            "value": 39,
+            "children": []
+          },
+          {
+            "name": "nokia5320di",
+            "value": 40,
+            "children": []
+          },
+          {
+            "name": "nokia5320dixpressmusic(19.01)",
+            "value": 41,
+            "children": []
+          },
+          {
+            "name": "nokia5630",
+            "value": 44,
+            "children": []
+          },
+          {
+            "name": "nokia5630d-1",
+            "value": 45,
+            "children": []
+          },
+          {
+            "name": "nokia5700",
+            "value": 46,
+            "children": []
+          },
+          {
+            "name": "nokia5700ba13.02",
+            "value": 47,
+            "children": []
+          },
+          {
+            "name": "nokia5730s-1",
+            "value": 48,
+            "children": []
+          },
+          {
+            "name": "nokia6120c",
+            "value": 53,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(14.01)",
+            "value": 54,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b11.01)",
+            "value": 55,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b12.01)",
+            "value": 56,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b14.01)",
+            "value": 57,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.01",
+            "value": 58,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.02",
+            "value": 59,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.03",
+            "value": 60,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.04",
+            "value": 61,
+            "children": []
+          },
+          {
+            "name": "nokia6120ci",
+            "value": 62,
+            "children": []
+          },
+          {
+            "name": "nokia6120ciap24.02",
+            "value": 63,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.01",
+            "value": 64,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.03",
+            "value": 65,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.04",
+            "value": 66,
+            "children": []
+          },
+          {
+            "name": "nokia6210navigator",
+            "value": 68,
+            "children": []
+          },
+          {
+            "name": "nokia6210s(19.01)",
+            "value": 69,
+            "children": []
+          },
+          {
+            "name": "nokia6220c-1",
+            "value": 70,
+            "children": []
+          },
+          {
+            "name": "nokia6700s",
+            "value": 76,
+            "children": []
+          },
+          {
+            "name": "nokia6760s-1",
+            "value": 77,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00",
+            "value": 94,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00i",
+            "value": 95,
+            "children": []
+          },
+          {
+            "name": "nokiac5-01",
+            "value": 96,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00",
+            "value": 103,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00m",
+            "value": 104,
+            "children": []
+          },
+          {
+            "name": "nokiae51",
+            "value": 105,
+            "children": []
+          },
+          {
+            "name": "nokiae51(14)",
+            "value": 106,
+            "children": []
+          },
+          {
+            "name": "nokiae52-1",
+            "value": 107,
+            "children": []
+          },
+          {
+            "name": "nokiae61",
+            "value": 109,
+            "children": []
+          },
+          {
+            "name": "nokiae63",
+            "value": 110,
+            "children": []
+          },
+          {
+            "name": "nokiae65",
+            "value": 111,
+            "children": []
+          },
+          {
+            "name": "nokiae66",
+            "value": 112,
+            "children": []
+          },
+          {
+            "name": "nokiae71",
+            "value": 114,
+            "children": []
+          },
+          {
+            "name": "nokiae72-1",
+            "value": 115,
+            "children": []
+          },
+          {
+            "name": "nokian73",
+            "value": 118,
+            "children": []
+          },
+          {
+            "name": "nokian73(16)",
+            "value": 119,
+            "children": []
+          },
+          {
+            "name": "nokian73(a1.01)",
+            "value": 120,
+            "children": []
+          },
+          {
+            "name": "nokian73(s4.02)",
+            "value": 121,
+            "children": []
+          },
+          {
+            "name": "nokian76",
+            "value": 122,
+            "children": []
+          },
+          {
+            "name": "nokian76(14.01)",
+            "value": 123,
+            "children": []
+          },
+          {
+            "name": "nokian78",
+            "value": 124,
+            "children": []
+          },
+          {
+            "name": "nokian79",
+            "value": 125,
+            "children": []
+          },
+          {
+            "name": "nokian80",
+            "value": 127,
+            "children": []
+          },
+          {
+            "name": "nokian81",
+            "value": 128,
+            "children": []
+          },
+          {
+            "name": "nokian81(14.01)",
+            "value": 129,
+            "children": []
+          },
+          {
+            "name": "nokian82",
+            "value": 130,
+            "children": []
+          },
+          {
+            "name": "nokian85",
+            "value": 131,
+            "children": []
+          },
+          {
+            "name": "nokian868mp",
+            "value": 132,
+            "children": []
+          },
+          {
+            "name": "nokian95",
+            "value": 133,
+            "children": []
+          },
+          {
+            "name": "nokian95(12.01)",
+            "value": 134,
+            "children": []
+          },
+          {
+            "name": "nokian95(15.01)",
+            "value": 135,
+            "children": []
+          },
+          {
+            "name": "nokian95(b5.01)",
+            "value": 136,
+            "children": []
+          },
+          {
+            "name": "nokian95(d6.01)",
+            "value": 137,
+            "children": []
+          },
+          {
+            "name": "nokian95_8gb",
+            "value": 138,
+            "children": []
+          },
+          {
+            "name": "nokianokia5320",
+            "value": 141,
+            "children": []
+          },
+          {
+            "name": "nokianokia6210s",
+            "value": 142,
+            "children": []
+          },
+          {
+            "name": "nokianokia6788i",
+            "value": 143,
+            "children": []
+          },
+          {
+            "name": "nokianokian81",
+            "value": 145,
+            "children": []
+          },
+          {
+            "name": "nokianokian96",
+            "value": 146,
+            "children": []
+          },
+          {
+            "name": "nokiax5-01",
+            "value": 153,
+            "children": []
+          },
+          {
+            "name": "s60",
+            "value": 156,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Symbian3",
+        "value": 4,
+        "children": [
+          {
+            "name": "nokia5230",
+            "value": 31,
+            "children": []
+          },
+          {
+            "name": "nokia5232",
+            "value": 32,
+            "children": []
+          },
+          {
+            "name": "nokia5233",
+            "value": 33,
+            "children": []
+          },
+          {
+            "name": "nokia5235",
+            "value": 34,
+            "children": []
+          },
+          {
+            "name": "nokia5236",
+            "value": 35,
+            "children": []
+          },
+          {
+            "name": "nokia5238",
+            "value": 36,
+            "children": []
+          },
+          {
+            "name": "nokia5250",
+            "value": 37,
+            "children": []
+          },
+          {
+            "name": "nokia5800ixpressmusic",
+            "value": 49,
+            "children": []
+          },
+          {
+            "name": "nokia5800wxpressmusic",
+            "value": 50,
+            "children": []
+          },
+          {
+            "name": "nokia5800xpressmusic",
+            "value": 51,
+            "children": []
+          },
+          {
+            "name": "nokiac5-03",
+            "value": 97,
+            "children": []
+          },
+          {
+            "name": "nokiac5-05",
+            "value": 98,
+            "children": []
+          },
+          {
+            "name": "nokiac5-06",
+            "value": 99,
+            "children": []
+          },
+          {
+            "name": "nokiac6-00",
+            "value": 100,
+            "children": []
+          },
+          {
+            "name": "nokian97",
+            "value": 139,
+            "children": []
+          },
+          {
+            "name": "nokian97mini",
+            "value": 140,
+            "children": []
+          },
+          {
+            "name": "nokianokiac5-03",
+            "value": 144,
+            "children": []
+          },
+          {
+            "name": "nokiax6-00",
+            "value": 154,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": [
+          {
+            "name": "其他",
+            "value": 0,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "AP": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "cmnet",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "cmwap",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "3gnet",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "3gwap",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "uniwap",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "uninet",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "ctwap",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "ctnet",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "wifi",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ]
+  }
+}
+2013-06-27 15:28:48,032 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128032",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 15:28:48,040 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128039",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 15:28:48,045 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128045",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 15:28:48,071 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128070",
+  "error": null,
+  "paging": null,
+  "result": {
+    "pv": 0,
+    "uv": 0,
+    "increaseUser": 0,
+    "onceUser": 0,
+    "onlyLoginUser": 0,
+    "avgUserLogin": 0.0,
+    "avgUserAccess": 0.0,
+    "avgLastTime": 0.0
+  }
+}
+2013-06-27 15:28:48,095 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128092",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 15:28:48,125 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128121",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 15:28:48,137 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128137",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 15:28:48,160 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372318128159",
+  "error": null,
+  "paging": null,
+  "result": [
+    null,
+    {
+      "title": "1次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "2次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "3次",
+      "count": 0,
+      "secondCount": 16,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "4次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "5次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "6次",
+      "count": 0,
+      "secondCount": 7,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "7次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "8次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "9次",
+      "count": 0,
+      "secondCount": 3,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "10次及以上",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    }
+  ]
+}
+2013-06-27 18:31:46,420 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106394",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 10,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 10
+  },
+  "result": [
+    {
+      "name": "tom.com",
+      "size": 26,
+      "rate": 0.68421054
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "rate": 0.05263158
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "rate": 0.02631579
+    }
+  ]
+}
+2013-06-27 18:31:46,485 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106483",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 6,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 6
+  },
+  "result": [
+    {
+      "name": "baidu.com",
+      "size": 9,
+      "rate": 0.47368422
+    },
+    {
+      "name": "qq.com",
+      "size": 5,
+      "rate": 0.2631579
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "rate": 0.10526316
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "rate": 0.05263158
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "rate": 0.05263158
+    }
+  ]
+}
+2013-06-27 18:31:46,517 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106516",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 38,
+    "children": null
+  }
+}
+2013-06-27 18:31:46,526 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106526",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 19,
+    "children": null
+  }
+}
+2013-06-27 18:31:46,557 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106550",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "name": "sina.com.cn",
+      "size": 1,
+      "children": [
+        "sinaimg.cn"
+      ]
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "jiayuan.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "kanshu.com",
+      "size": 1,
+      "children": [
+        "sogou.com"
+      ]
+    },
+    {
+      "name": "sina.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tomonline-inc.com",
+      "size": 1,
+      "children": [
+        "hjsm.net"
+      ]
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "children": [
+        "weibo.cn"
+      ]
+    },
+    {
+      "name": "163.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qzoneapp.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "soso.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qq.com",
+      "size": 22,
+      "children": [
+        "tom.com",
+        null,
+        "qzoneapp.com",
+        "58.com"
+      ]
+    },
+    {
+      "name": "jjwxc.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "zol.com",
+      "size": null,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tom.com",
+      "size": 38,
+      "children": [
+        "ifeng.com",
+        null,
+        "easou.com",
+        "sina.cn",
+        "taobao.com",
+        "hongxiu.com",
+        "sohu.com",
+        "zol.com",
+        "jjwxc.com",
+        "soso.com"
+      ]
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "weibo.cn",
+      "size": 1,
+      "children": [
+        "sina.com.cn"
+      ]
+    },
+    {
+      "name": "hongxiu.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sinaimg.cn",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "hjsm.net",
+      "size": 1,
+      "children": [
+        "cmread.com"
+      ]
+    },
+    {
+      "name": "baidu.com",
+      "size": 10,
+      "children": [
+        "sina.com",
+        "tom.com"
+      ]
+    },
+    {
+      "name": "sohu.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    }
+  ]
+}
+2013-06-27 18:31:46,949 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329106909",
+  "error": null,
+  "paging": null,
+  "result": {
+    "LOGS": [
+      {
+        "name": "Tencent-Time",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "Tencent-Total",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "Tencent-Outer",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "Tom",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "Xpress-Browser",
+        "value": 5,
+        "children": []
+      }
+    ],
+    "CHANNEL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-7",
+        "value": 39,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-7",
+        "value": 40,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-7",
+        "value": 41,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-7",
+        "value": 42,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-10",
+        "value": 43,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-10",
+        "value": 44,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-10",
+        "value": 45,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-1",
+        "value": 46,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-1",
+        "value": 47,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-1",
+        "value": 48,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-1",
+        "value": 49,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-12",
+        "value": 50,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-12",
+        "value": 51,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-13",
+        "value": 52,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-13",
+        "value": 53,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-13",
+        "value": 54,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-14",
+        "value": 55,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-14",
+        "value": 56,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-14",
+        "value": 57,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-15",
+        "value": 58,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-15",
+        "value": 59,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-16",
+        "value": 60,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-16",
+        "value": 61,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-20",
+        "value": 62,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-20",
+        "value": 63,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-20",
+        "value": 64,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-20",
+        "value": 65,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-2",
+        "value": 66,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-2",
+        "value": 67,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-2",
+        "value": 68,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-3",
+        "value": 69,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-3",
+        "value": 70,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-3",
+        "value": 71,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-4",
+        "value": 72,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-4",
+        "value": 73,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-4",
+        "value": 74,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-5",
+        "value": 75,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-5",
+        "value": 76,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-5",
+        "value": 77,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-6",
+        "value": 78,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-6",
+        "value": 79,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-6",
+        "value": 80,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-8",
+        "value": 81,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-8",
+        "value": 82,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-8",
+        "value": 83,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-9",
+        "value": 84,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-9",
+        "value": 85,
+        "children": []
+      },
+      {
+        "name": "S60V5-preload",
+        "value": 86,
+        "children": []
+      },
+      {
+        "name": "S60V5-Tencent",
+        "value": 87,
+        "children": []
+      },
+      {
+        "name": "S60V5-Noki.mobi",
+        "value": 88,
+        "children": []
+      },
+      {
+        "name": "S60V5-Ovistore",
+        "value": 89,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other",
+        "value": 90,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other1",
+        "value": 91,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other2",
+        "value": 92,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3",
+        "value": 93,
+        "children": []
+      },
+      {
+        "name": "Symbian3-preload",
+        "value": 94,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Tencent",
+        "value": 95,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Noki.mobi",
+        "value": 96,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Ovistore",
+        "value": 97,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other",
+        "value": 98,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other1",
+        "value": 99,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other2",
+        "value": 100,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3",
+        "value": 101,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "OPERATOR": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "移通",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "电信",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "联通",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "网通",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "铁通",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "移动",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "方正宽带",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "教育网",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "歌华",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "电信通",
+        "value": 10,
+        "children": []
+      },
+      {
+        "name": "有线通",
+        "value": 11,
+        "children": []
+      },
+      {
+        "name": "广电",
+        "value": 12,
+        "children": []
+      },
+      {
+        "name": "长城宽带",
+        "value": 13,
+        "children": []
+      },
+      {
+        "name": "航数宽网",
+        "value": 14,
+        "children": []
+      },
+      {
+        "name": "油田宽带",
+        "value": 15,
+        "children": []
+      },
+      {
+        "name": "蓝波宽带",
+        "value": 16,
+        "children": []
+      },
+      {
+        "name": "视讯宽带",
+        "value": 17,
+        "children": []
+      },
+      {
+        "name": "世纪互联",
+        "value": 18,
+        "children": []
+      },
+      {
+        "name": "华数宽带",
+        "value": 19,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "PLATFORMTERMINAL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "s40",
+        "value": 1,
+        "children": [
+          {
+            "name": "gt-i6330c",
+            "value": 12,
+            "children": []
+          },
+          {
+            "name": "nokia2220s",
+            "value": 14,
+            "children": []
+          },
+          {
+            "name": "nokia2322c",
+            "value": 15,
+            "children": []
+          },
+          {
+            "name": "nokia2690",
+            "value": 16,
+            "children": []
+          },
+          {
+            "name": "nokia2700c",
+            "value": 17,
+            "children": []
+          },
+          {
+            "name": "nokia2710c",
+            "value": 18,
+            "children": []
+          },
+          {
+            "name": "nokia2730c",
+            "value": 19,
+            "children": []
+          },
+          {
+            "name": "nokia2730c-1",
+            "value": 20,
+            "children": []
+          },
+          {
+            "name": "nokia3030",
+            "value": 21,
+            "children": []
+          },
+          {
+            "name": "nokia3050",
+            "value": 22,
+            "children": []
+          },
+          {
+            "name": "nokia3110c",
+            "value": 23,
+            "children": []
+          },
+          {
+            "name": "nokia3208c",
+            "value": 24,
+            "children": []
+          },
+          {
+            "name": "nokia3720c",
+            "value": 25,
+            "children": []
+          },
+          {
+            "name": "nokia5130",
+            "value": 27,
+            "children": []
+          },
+          {
+            "name": "nokia5130c-2",
+            "value": 28,
+            "children": []
+          },
+          {
+            "name": "nokia5132",
+            "value": 29,
+            "children": []
+          },
+          {
+            "name": "nokia5200",
+            "value": 30,
+            "children": []
+          },
+          {
+            "name": "nokia5300",
+            "value": 38,
+            "children": []
+          },
+          {
+            "name": "nokia5330",
+            "value": 42,
+            "children": []
+          },
+          {
+            "name": "nokia6208c",
+            "value": 67,
+            "children": []
+          },
+          {
+            "name": "nokia6280",
+            "value": 71,
+            "children": []
+          },
+          {
+            "name": "nokia6300",
+            "value": 72,
+            "children": []
+          },
+          {
+            "name": "nokia6303c",
+            "value": 73,
+            "children": []
+          },
+          {
+            "name": "nokia6303ci",
+            "value": 74,
+            "children": []
+          },
+          {
+            "name": "nokia6500s-1",
+            "value": 75,
+            "children": []
+          },
+          {
+            "name": "nokia7230",
+            "value": 81,
+            "children": []
+          },
+          {
+            "name": "nokia7610s",
+            "value": 82,
+            "children": []
+          },
+          {
+            "name": "nokia7610supernova",
+            "value": 83,
+            "children": []
+          },
+          {
+            "name": "nokiac1-01",
+            "value": 84,
+            "children": []
+          },
+          {
+            "name": "nokiac1-02",
+            "value": 85,
+            "children": []
+          },
+          {
+            "name": "nokiac1-03",
+            "value": 86,
+            "children": []
+          },
+          {
+            "name": "nokiac2-00",
+            "value": 87,
+            "children": []
+          },
+          {
+            "name": "nokiac2-01",
+            "value": 88,
+            "children": []
+          },
+          {
+            "name": "nokiac2-05",
+            "value": 89,
+            "children": []
+          },
+          {
+            "name": "nokiac2-07",
+            "value": 90,
+            "children": []
+          },
+          {
+            "name": "nokiac2-08",
+            "value": 91,
+            "children": []
+          },
+          {
+            "name": "nokiac3-00",
+            "value": 92,
+            "children": []
+          },
+          {
+            "name": "nokiac3-01",
+            "value": 93,
+            "children": []
+          },
+          {
+            "name": "nokian70-1",
+            "value": 116,
+            "children": []
+          },
+          {
+            "name": "nokian72",
+            "value": 117,
+            "children": []
+          },
+          {
+            "name": "nokiax2-00",
+            "value": 147,
+            "children": []
+          },
+          {
+            "name": "nokiax2-01",
+            "value": 148,
+            "children": []
+          },
+          {
+            "name": "nokiax2-03",
+            "value": 149,
+            "children": []
+          },
+          {
+            "name": "nokiax2-05",
+            "value": 150,
+            "children": []
+          },
+          {
+            "name": "nokiax3-00",
+            "value": 151,
+            "children": []
+          },
+          {
+            "name": "nokiax3-02",
+            "value": 152,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60V3",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "S60V5",
+        "value": 3,
+        "children": [
+          {
+            "name": "(c)nokia5630d-1",
+            "value": 1,
+            "children": []
+          },
+          {
+            "name": "(c)nokia6700s",
+            "value": 2,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae52-1",
+            "value": 3,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72",
+            "value": 4,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72-1",
+            "value": 5,
+            "children": []
+          },
+          {
+            "name": "(c)nokian78",
+            "value": 6,
+            "children": []
+          },
+          {
+            "name": "(c)nokian85",
+            "value": 7,
+            "children": []
+          },
+          {
+            "name": "(c)nokianxx",
+            "value": 8,
+            "children": []
+          },
+          {
+            "name": "e63",
+            "value": 9,
+            "children": []
+          },
+          {
+            "name": "e66",
+            "value": 10,
+            "children": []
+          },
+          {
+            "name": "e71",
+            "value": 11,
+            "children": []
+          },
+          {
+            "name": "n96",
+            "value": 13,
+            "children": []
+          },
+          {
+            "name": "nokia5320(19.01)",
+            "value": 39,
+            "children": []
+          },
+          {
+            "name": "nokia5320di",
+            "value": 40,
+            "children": []
+          },
+          {
+            "name": "nokia5320dixpressmusic(19.01)",
+            "value": 41,
+            "children": []
+          },
+          {
+            "name": "nokia5630",
+            "value": 44,
+            "children": []
+          },
+          {
+            "name": "nokia5630d-1",
+            "value": 45,
+            "children": []
+          },
+          {
+            "name": "nokia5700",
+            "value": 46,
+            "children": []
+          },
+          {
+            "name": "nokia5700ba13.02",
+            "value": 47,
+            "children": []
+          },
+          {
+            "name": "nokia5730s-1",
+            "value": 48,
+            "children": []
+          },
+          {
+            "name": "nokia6120c",
+            "value": 53,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(14.01)",
+            "value": 54,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b11.01)",
+            "value": 55,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b12.01)",
+            "value": 56,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b14.01)",
+            "value": 57,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.01",
+            "value": 58,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.02",
+            "value": 59,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.03",
+            "value": 60,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.04",
+            "value": 61,
+            "children": []
+          },
+          {
+            "name": "nokia6120ci",
+            "value": 62,
+            "children": []
+          },
+          {
+            "name": "nokia6120ciap24.02",
+            "value": 63,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.01",
+            "value": 64,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.03",
+            "value": 65,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.04",
+            "value": 66,
+            "children": []
+          },
+          {
+            "name": "nokia6210navigator",
+            "value": 68,
+            "children": []
+          },
+          {
+            "name": "nokia6210s(19.01)",
+            "value": 69,
+            "children": []
+          },
+          {
+            "name": "nokia6220c-1",
+            "value": 70,
+            "children": []
+          },
+          {
+            "name": "nokia6700s",
+            "value": 76,
+            "children": []
+          },
+          {
+            "name": "nokia6760s-1",
+            "value": 77,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00",
+            "value": 94,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00i",
+            "value": 95,
+            "children": []
+          },
+          {
+            "name": "nokiac5-01",
+            "value": 96,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00",
+            "value": 103,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00m",
+            "value": 104,
+            "children": []
+          },
+          {
+            "name": "nokiae51",
+            "value": 105,
+            "children": []
+          },
+          {
+            "name": "nokiae51(14)",
+            "value": 106,
+            "children": []
+          },
+          {
+            "name": "nokiae52-1",
+            "value": 107,
+            "children": []
+          },
+          {
+            "name": "nokiae61",
+            "value": 109,
+            "children": []
+          },
+          {
+            "name": "nokiae63",
+            "value": 110,
+            "children": []
+          },
+          {
+            "name": "nokiae65",
+            "value": 111,
+            "children": []
+          },
+          {
+            "name": "nokiae66",
+            "value": 112,
+            "children": []
+          },
+          {
+            "name": "nokiae71",
+            "value": 114,
+            "children": []
+          },
+          {
+            "name": "nokiae72-1",
+            "value": 115,
+            "children": []
+          },
+          {
+            "name": "nokian73",
+            "value": 118,
+            "children": []
+          },
+          {
+            "name": "nokian73(16)",
+            "value": 119,
+            "children": []
+          },
+          {
+            "name": "nokian73(a1.01)",
+            "value": 120,
+            "children": []
+          },
+          {
+            "name": "nokian73(s4.02)",
+            "value": 121,
+            "children": []
+          },
+          {
+            "name": "nokian76",
+            "value": 122,
+            "children": []
+          },
+          {
+            "name": "nokian76(14.01)",
+            "value": 123,
+            "children": []
+          },
+          {
+            "name": "nokian78",
+            "value": 124,
+            "children": []
+          },
+          {
+            "name": "nokian79",
+            "value": 125,
+            "children": []
+          },
+          {
+            "name": "nokian80",
+            "value": 127,
+            "children": []
+          },
+          {
+            "name": "nokian81",
+            "value": 128,
+            "children": []
+          },
+          {
+            "name": "nokian81(14.01)",
+            "value": 129,
+            "children": []
+          },
+          {
+            "name": "nokian82",
+            "value": 130,
+            "children": []
+          },
+          {
+            "name": "nokian85",
+            "value": 131,
+            "children": []
+          },
+          {
+            "name": "nokian868mp",
+            "value": 132,
+            "children": []
+          },
+          {
+            "name": "nokian95",
+            "value": 133,
+            "children": []
+          },
+          {
+            "name": "nokian95(12.01)",
+            "value": 134,
+            "children": []
+          },
+          {
+            "name": "nokian95(15.01)",
+            "value": 135,
+            "children": []
+          },
+          {
+            "name": "nokian95(b5.01)",
+            "value": 136,
+            "children": []
+          },
+          {
+            "name": "nokian95(d6.01)",
+            "value": 137,
+            "children": []
+          },
+          {
+            "name": "nokian95_8gb",
+            "value": 138,
+            "children": []
+          },
+          {
+            "name": "nokianokia5320",
+            "value": 141,
+            "children": []
+          },
+          {
+            "name": "nokianokia6210s",
+            "value": 142,
+            "children": []
+          },
+          {
+            "name": "nokianokia6788i",
+            "value": 143,
+            "children": []
+          },
+          {
+            "name": "nokianokian81",
+            "value": 145,
+            "children": []
+          },
+          {
+            "name": "nokianokian96",
+            "value": 146,
+            "children": []
+          },
+          {
+            "name": "nokiax5-01",
+            "value": 153,
+            "children": []
+          },
+          {
+            "name": "s60",
+            "value": 156,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Symbian3",
+        "value": 4,
+        "children": [
+          {
+            "name": "nokia5230",
+            "value": 31,
+            "children": []
+          },
+          {
+            "name": "nokia5232",
+            "value": 32,
+            "children": []
+          },
+          {
+            "name": "nokia5233",
+            "value": 33,
+            "children": []
+          },
+          {
+            "name": "nokia5235",
+            "value": 34,
+            "children": []
+          },
+          {
+            "name": "nokia5236",
+            "value": 35,
+            "children": []
+          },
+          {
+            "name": "nokia5238",
+            "value": 36,
+            "children": []
+          },
+          {
+            "name": "nokia5250",
+            "value": 37,
+            "children": []
+          },
+          {
+            "name": "nokia5800ixpressmusic",
+            "value": 49,
+            "children": []
+          },
+          {
+            "name": "nokia5800wxpressmusic",
+            "value": 50,
+            "children": []
+          },
+          {
+            "name": "nokia5800xpressmusic",
+            "value": 51,
+            "children": []
+          },
+          {
+            "name": "nokiac5-03",
+            "value": 97,
+            "children": []
+          },
+          {
+            "name": "nokiac5-05",
+            "value": 98,
+            "children": []
+          },
+          {
+            "name": "nokiac5-06",
+            "value": 99,
+            "children": []
+          },
+          {
+            "name": "nokiac6-00",
+            "value": 100,
+            "children": []
+          },
+          {
+            "name": "nokian97",
+            "value": 139,
+            "children": []
+          },
+          {
+            "name": "nokian97mini",
+            "value": 140,
+            "children": []
+          },
+          {
+            "name": "nokianokiac5-03",
+            "value": 144,
+            "children": []
+          },
+          {
+            "name": "nokiax6-00",
+            "value": 154,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": [
+          {
+            "name": "其他",
+            "value": 0,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "AP": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "cmnet",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "cmwap",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "3gnet",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "3gwap",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "uniwap",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "uninet",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "ctwap",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "ctnet",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "wifi",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ]
+  }
+}
+2013-06-27 18:31:47,014 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107014",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 18:31:47,064 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107061",
+  "error": null,
+  "paging": null,
+  "result": [
+    null,
+    {
+      "title": "1次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "2次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "3次",
+      "count": 0,
+      "secondCount": 16,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "4次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "5次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "6次",
+      "count": 0,
+      "secondCount": 7,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "7次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "8次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "9次",
+      "count": 0,
+      "secondCount": 3,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "10次及以上",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    }
+  ]
+}
+2013-06-27 18:31:47,074 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107074",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 18:31:47,082 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107082",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 18:31:47,089 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107089",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 18:31:47,136 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107135",
+  "error": null,
+  "paging": null,
+  "result": {
+    "pv": 0,
+    "uv": 0,
+    "increaseUser": 0,
+    "onceUser": 0,
+    "onlyLoginUser": 0,
+    "avgUserLogin": 0.0,
+    "avgUserAccess": 0.0,
+    "avgLastTime": 0.0
+  }
+}
+2013-06-27 18:31:47,160 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107155",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 18:31:47,194 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329107188",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 18:41:37,404 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697390",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "name": "sina.com.cn",
+      "size": 1,
+      "children": [
+        "sinaimg.cn"
+      ]
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "jiayuan.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "kanshu.com",
+      "size": 1,
+      "children": [
+        "sogou.com"
+      ]
+    },
+    {
+      "name": "sina.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tomonline-inc.com",
+      "size": 1,
+      "children": [
+        "hjsm.net"
+      ]
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "children": [
+        "weibo.cn"
+      ]
+    },
+    {
+      "name": "163.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qzoneapp.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "soso.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qq.com",
+      "size": 22,
+      "children": [
+        "tom.com",
+        null,
+        "58.com",
+        "qzoneapp.com"
+      ]
+    },
+    {
+      "name": "jjwxc.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "zol.com",
+      "size": null,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tom.com",
+      "size": 38,
+      "children": [
+        "ifeng.com",
+        null,
+        "taobao.com",
+        "easou.com",
+        "hongxiu.com",
+        "sohu.com",
+        "zol.com",
+        "sina.cn",
+        "jjwxc.com",
+        "soso.com"
+      ]
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "weibo.cn",
+      "size": 1,
+      "children": [
+        "sina.com.cn"
+      ]
+    },
+    {
+      "name": "hongxiu.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sinaimg.cn",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "hjsm.net",
+      "size": 1,
+      "children": [
+        "cmread.com"
+      ]
+    },
+    {
+      "name": "baidu.com",
+      "size": 10,
+      "children": [
+        "sina.com",
+        "tom.com"
+      ]
+    },
+    {
+      "name": "sohu.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    }
+  ]
+}
+2013-06-27 18:41:37,441 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697438",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 10,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 10
+  },
+  "result": [
+    {
+      "name": "tom.com",
+      "size": 26,
+      "rate": 0.68421054
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "rate": 0.05263158
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "rate": 0.02631579
+    }
+  ]
+}
+2013-06-27 18:41:37,463 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697461",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 6,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 6
+  },
+  "result": [
+    {
+      "name": "baidu.com",
+      "size": 9,
+      "rate": 0.47368422
+    },
+    {
+      "name": "qq.com",
+      "size": 5,
+      "rate": 0.2631579
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "rate": 0.10526316
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "rate": 0.05263158
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "rate": 0.05263158
+    }
+  ]
+}
+2013-06-27 18:41:37,489 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697488",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 38,
+    "children": null
+  }
+}
+2013-06-27 18:41:37,498 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697498",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 19,
+    "children": null
+  }
+}
+2013-06-27 18:41:37,701 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697656",
+  "error": null,
+  "paging": null,
+  "result": {
+    "LOGS": [
+      {
+        "name": "Tencent-Time",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "Tencent-Total",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "Tencent-Outer",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "Tom",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "Xpress-Browser",
+        "value": 5,
+        "children": []
+      }
+    ],
+    "CHANNEL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-7",
+        "value": 39,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-7",
+        "value": 40,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-7",
+        "value": 41,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-7",
+        "value": 42,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-10",
+        "value": 43,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-10",
+        "value": 44,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-10",
+        "value": 45,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-1",
+        "value": 46,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-1",
+        "value": 47,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-1",
+        "value": 48,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-1",
+        "value": 49,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-12",
+        "value": 50,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-12",
+        "value": 51,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-13",
+        "value": 52,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-13",
+        "value": 53,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-13",
+        "value": 54,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-14",
+        "value": 55,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-14",
+        "value": 56,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-14",
+        "value": 57,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-15",
+        "value": 58,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-15",
+        "value": 59,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-16",
+        "value": 60,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-16",
+        "value": 61,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-20",
+        "value": 62,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-20",
+        "value": 63,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-20",
+        "value": 64,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-20",
+        "value": 65,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-2",
+        "value": 66,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-2",
+        "value": 67,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-2",
+        "value": 68,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-3",
+        "value": 69,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-3",
+        "value": 70,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-3",
+        "value": 71,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-4",
+        "value": 72,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-4",
+        "value": 73,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-4",
+        "value": 74,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-5",
+        "value": 75,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-5",
+        "value": 76,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-5",
+        "value": 77,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-6",
+        "value": 78,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-6",
+        "value": 79,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-6",
+        "value": 80,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-8",
+        "value": 81,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-8",
+        "value": 82,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-8",
+        "value": 83,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-9",
+        "value": 84,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-9",
+        "value": 85,
+        "children": []
+      },
+      {
+        "name": "S60V5-preload",
+        "value": 86,
+        "children": []
+      },
+      {
+        "name": "S60V5-Tencent",
+        "value": 87,
+        "children": []
+      },
+      {
+        "name": "S60V5-Noki.mobi",
+        "value": 88,
+        "children": []
+      },
+      {
+        "name": "S60V5-Ovistore",
+        "value": 89,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other",
+        "value": 90,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other1",
+        "value": 91,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other2",
+        "value": 92,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3",
+        "value": 93,
+        "children": []
+      },
+      {
+        "name": "Symbian3-preload",
+        "value": 94,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Tencent",
+        "value": 95,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Noki.mobi",
+        "value": 96,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Ovistore",
+        "value": 97,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other",
+        "value": 98,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other1",
+        "value": 99,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other2",
+        "value": 100,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3",
+        "value": 101,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "OPERATOR": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "移通",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "电信",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "联通",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "网通",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "铁通",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "移动",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "方正宽带",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "教育网",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "歌华",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "电信通",
+        "value": 10,
+        "children": []
+      },
+      {
+        "name": "有线通",
+        "value": 11,
+        "children": []
+      },
+      {
+        "name": "广电",
+        "value": 12,
+        "children": []
+      },
+      {
+        "name": "长城宽带",
+        "value": 13,
+        "children": []
+      },
+      {
+        "name": "航数宽网",
+        "value": 14,
+        "children": []
+      },
+      {
+        "name": "油田宽带",
+        "value": 15,
+        "children": []
+      },
+      {
+        "name": "蓝波宽带",
+        "value": 16,
+        "children": []
+      },
+      {
+        "name": "视讯宽带",
+        "value": 17,
+        "children": []
+      },
+      {
+        "name": "世纪互联",
+        "value": 18,
+        "children": []
+      },
+      {
+        "name": "华数宽带",
+        "value": 19,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "PLATFORMTERMINAL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "s40",
+        "value": 1,
+        "children": [
+          {
+            "name": "gt-i6330c",
+            "value": 12,
+            "children": []
+          },
+          {
+            "name": "nokia2220s",
+            "value": 14,
+            "children": []
+          },
+          {
+            "name": "nokia2322c",
+            "value": 15,
+            "children": []
+          },
+          {
+            "name": "nokia2690",
+            "value": 16,
+            "children": []
+          },
+          {
+            "name": "nokia2700c",
+            "value": 17,
+            "children": []
+          },
+          {
+            "name": "nokia2710c",
+            "value": 18,
+            "children": []
+          },
+          {
+            "name": "nokia2730c",
+            "value": 19,
+            "children": []
+          },
+          {
+            "name": "nokia2730c-1",
+            "value": 20,
+            "children": []
+          },
+          {
+            "name": "nokia3030",
+            "value": 21,
+            "children": []
+          },
+          {
+            "name": "nokia3050",
+            "value": 22,
+            "children": []
+          },
+          {
+            "name": "nokia3110c",
+            "value": 23,
+            "children": []
+          },
+          {
+            "name": "nokia3208c",
+            "value": 24,
+            "children": []
+          },
+          {
+            "name": "nokia3720c",
+            "value": 25,
+            "children": []
+          },
+          {
+            "name": "nokia5130",
+            "value": 27,
+            "children": []
+          },
+          {
+            "name": "nokia5130c-2",
+            "value": 28,
+            "children": []
+          },
+          {
+            "name": "nokia5132",
+            "value": 29,
+            "children": []
+          },
+          {
+            "name": "nokia5200",
+            "value": 30,
+            "children": []
+          },
+          {
+            "name": "nokia5300",
+            "value": 38,
+            "children": []
+          },
+          {
+            "name": "nokia5330",
+            "value": 42,
+            "children": []
+          },
+          {
+            "name": "nokia6208c",
+            "value": 67,
+            "children": []
+          },
+          {
+            "name": "nokia6280",
+            "value": 71,
+            "children": []
+          },
+          {
+            "name": "nokia6300",
+            "value": 72,
+            "children": []
+          },
+          {
+            "name": "nokia6303c",
+            "value": 73,
+            "children": []
+          },
+          {
+            "name": "nokia6303ci",
+            "value": 74,
+            "children": []
+          },
+          {
+            "name": "nokia6500s-1",
+            "value": 75,
+            "children": []
+          },
+          {
+            "name": "nokia7230",
+            "value": 81,
+            "children": []
+          },
+          {
+            "name": "nokia7610s",
+            "value": 82,
+            "children": []
+          },
+          {
+            "name": "nokia7610supernova",
+            "value": 83,
+            "children": []
+          },
+          {
+            "name": "nokiac1-01",
+            "value": 84,
+            "children": []
+          },
+          {
+            "name": "nokiac1-02",
+            "value": 85,
+            "children": []
+          },
+          {
+            "name": "nokiac1-03",
+            "value": 86,
+            "children": []
+          },
+          {
+            "name": "nokiac2-00",
+            "value": 87,
+            "children": []
+          },
+          {
+            "name": "nokiac2-01",
+            "value": 88,
+            "children": []
+          },
+          {
+            "name": "nokiac2-05",
+            "value": 89,
+            "children": []
+          },
+          {
+            "name": "nokiac2-07",
+            "value": 90,
+            "children": []
+          },
+          {
+            "name": "nokiac2-08",
+            "value": 91,
+            "children": []
+          },
+          {
+            "name": "nokiac3-00",
+            "value": 92,
+            "children": []
+          },
+          {
+            "name": "nokiac3-01",
+            "value": 93,
+            "children": []
+          },
+          {
+            "name": "nokian70-1",
+            "value": 116,
+            "children": []
+          },
+          {
+            "name": "nokian72",
+            "value": 117,
+            "children": []
+          },
+          {
+            "name": "nokiax2-00",
+            "value": 147,
+            "children": []
+          },
+          {
+            "name": "nokiax2-01",
+            "value": 148,
+            "children": []
+          },
+          {
+            "name": "nokiax2-03",
+            "value": 149,
+            "children": []
+          },
+          {
+            "name": "nokiax2-05",
+            "value": 150,
+            "children": []
+          },
+          {
+            "name": "nokiax3-00",
+            "value": 151,
+            "children": []
+          },
+          {
+            "name": "nokiax3-02",
+            "value": 152,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60V3",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "S60V5",
+        "value": 3,
+        "children": [
+          {
+            "name": "(c)nokia5630d-1",
+            "value": 1,
+            "children": []
+          },
+          {
+            "name": "(c)nokia6700s",
+            "value": 2,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae52-1",
+            "value": 3,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72",
+            "value": 4,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72-1",
+            "value": 5,
+            "children": []
+          },
+          {
+            "name": "(c)nokian78",
+            "value": 6,
+            "children": []
+          },
+          {
+            "name": "(c)nokian85",
+            "value": 7,
+            "children": []
+          },
+          {
+            "name": "(c)nokianxx",
+            "value": 8,
+            "children": []
+          },
+          {
+            "name": "e63",
+            "value": 9,
+            "children": []
+          },
+          {
+            "name": "e66",
+            "value": 10,
+            "children": []
+          },
+          {
+            "name": "e71",
+            "value": 11,
+            "children": []
+          },
+          {
+            "name": "n96",
+            "value": 13,
+            "children": []
+          },
+          {
+            "name": "nokia5320(19.01)",
+            "value": 39,
+            "children": []
+          },
+          {
+            "name": "nokia5320di",
+            "value": 40,
+            "children": []
+          },
+          {
+            "name": "nokia5320dixpressmusic(19.01)",
+            "value": 41,
+            "children": []
+          },
+          {
+            "name": "nokia5630",
+            "value": 44,
+            "children": []
+          },
+          {
+            "name": "nokia5630d-1",
+            "value": 45,
+            "children": []
+          },
+          {
+            "name": "nokia5700",
+            "value": 46,
+            "children": []
+          },
+          {
+            "name": "nokia5700ba13.02",
+            "value": 47,
+            "children": []
+          },
+          {
+            "name": "nokia5730s-1",
+            "value": 48,
+            "children": []
+          },
+          {
+            "name": "nokia6120c",
+            "value": 53,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(14.01)",
+            "value": 54,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b11.01)",
+            "value": 55,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b12.01)",
+            "value": 56,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b14.01)",
+            "value": 57,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.01",
+            "value": 58,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.02",
+            "value": 59,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.03",
+            "value": 60,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.04",
+            "value": 61,
+            "children": []
+          },
+          {
+            "name": "nokia6120ci",
+            "value": 62,
+            "children": []
+          },
+          {
+            "name": "nokia6120ciap24.02",
+            "value": 63,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.01",
+            "value": 64,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.03",
+            "value": 65,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.04",
+            "value": 66,
+            "children": []
+          },
+          {
+            "name": "nokia6210navigator",
+            "value": 68,
+            "children": []
+          },
+          {
+            "name": "nokia6210s(19.01)",
+            "value": 69,
+            "children": []
+          },
+          {
+            "name": "nokia6220c-1",
+            "value": 70,
+            "children": []
+          },
+          {
+            "name": "nokia6700s",
+            "value": 76,
+            "children": []
+          },
+          {
+            "name": "nokia6760s-1",
+            "value": 77,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00",
+            "value": 94,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00i",
+            "value": 95,
+            "children": []
+          },
+          {
+            "name": "nokiac5-01",
+            "value": 96,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00",
+            "value": 103,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00m",
+            "value": 104,
+            "children": []
+          },
+          {
+            "name": "nokiae51",
+            "value": 105,
+            "children": []
+          },
+          {
+            "name": "nokiae51(14)",
+            "value": 106,
+            "children": []
+          },
+          {
+            "name": "nokiae52-1",
+            "value": 107,
+            "children": []
+          },
+          {
+            "name": "nokiae61",
+            "value": 109,
+            "children": []
+          },
+          {
+            "name": "nokiae63",
+            "value": 110,
+            "children": []
+          },
+          {
+            "name": "nokiae65",
+            "value": 111,
+            "children": []
+          },
+          {
+            "name": "nokiae66",
+            "value": 112,
+            "children": []
+          },
+          {
+            "name": "nokiae71",
+            "value": 114,
+            "children": []
+          },
+          {
+            "name": "nokiae72-1",
+            "value": 115,
+            "children": []
+          },
+          {
+            "name": "nokian73",
+            "value": 118,
+            "children": []
+          },
+          {
+            "name": "nokian73(16)",
+            "value": 119,
+            "children": []
+          },
+          {
+            "name": "nokian73(a1.01)",
+            "value": 120,
+            "children": []
+          },
+          {
+            "name": "nokian73(s4.02)",
+            "value": 121,
+            "children": []
+          },
+          {
+            "name": "nokian76",
+            "value": 122,
+            "children": []
+          },
+          {
+            "name": "nokian76(14.01)",
+            "value": 123,
+            "children": []
+          },
+          {
+            "name": "nokian78",
+            "value": 124,
+            "children": []
+          },
+          {
+            "name": "nokian79",
+            "value": 125,
+            "children": []
+          },
+          {
+            "name": "nokian80",
+            "value": 127,
+            "children": []
+          },
+          {
+            "name": "nokian81",
+            "value": 128,
+            "children": []
+          },
+          {
+            "name": "nokian81(14.01)",
+            "value": 129,
+            "children": []
+          },
+          {
+            "name": "nokian82",
+            "value": 130,
+            "children": []
+          },
+          {
+            "name": "nokian85",
+            "value": 131,
+            "children": []
+          },
+          {
+            "name": "nokian868mp",
+            "value": 132,
+            "children": []
+          },
+          {
+            "name": "nokian95",
+            "value": 133,
+            "children": []
+          },
+          {
+            "name": "nokian95(12.01)",
+            "value": 134,
+            "children": []
+          },
+          {
+            "name": "nokian95(15.01)",
+            "value": 135,
+            "children": []
+          },
+          {
+            "name": "nokian95(b5.01)",
+            "value": 136,
+            "children": []
+          },
+          {
+            "name": "nokian95(d6.01)",
+            "value": 137,
+            "children": []
+          },
+          {
+            "name": "nokian95_8gb",
+            "value": 138,
+            "children": []
+          },
+          {
+            "name": "nokianokia5320",
+            "value": 141,
+            "children": []
+          },
+          {
+            "name": "nokianokia6210s",
+            "value": 142,
+            "children": []
+          },
+          {
+            "name": "nokianokia6788i",
+            "value": 143,
+            "children": []
+          },
+          {
+            "name": "nokianokian81",
+            "value": 145,
+            "children": []
+          },
+          {
+            "name": "nokianokian96",
+            "value": 146,
+            "children": []
+          },
+          {
+            "name": "nokiax5-01",
+            "value": 153,
+            "children": []
+          },
+          {
+            "name": "s60",
+            "value": 156,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Symbian3",
+        "value": 4,
+        "children": [
+          {
+            "name": "nokia5230",
+            "value": 31,
+            "children": []
+          },
+          {
+            "name": "nokia5232",
+            "value": 32,
+            "children": []
+          },
+          {
+            "name": "nokia5233",
+            "value": 33,
+            "children": []
+          },
+          {
+            "name": "nokia5235",
+            "value": 34,
+            "children": []
+          },
+          {
+            "name": "nokia5236",
+            "value": 35,
+            "children": []
+          },
+          {
+            "name": "nokia5238",
+            "value": 36,
+            "children": []
+          },
+          {
+            "name": "nokia5250",
+            "value": 37,
+            "children": []
+          },
+          {
+            "name": "nokia5800ixpressmusic",
+            "value": 49,
+            "children": []
+          },
+          {
+            "name": "nokia5800wxpressmusic",
+            "value": 50,
+            "children": []
+          },
+          {
+            "name": "nokia5800xpressmusic",
+            "value": 51,
+            "children": []
+          },
+          {
+            "name": "nokiac5-03",
+            "value": 97,
+            "children": []
+          },
+          {
+            "name": "nokiac5-05",
+            "value": 98,
+            "children": []
+          },
+          {
+            "name": "nokiac5-06",
+            "value": 99,
+            "children": []
+          },
+          {
+            "name": "nokiac6-00",
+            "value": 100,
+            "children": []
+          },
+          {
+            "name": "nokian97",
+            "value": 139,
+            "children": []
+          },
+          {
+            "name": "nokian97mini",
+            "value": 140,
+            "children": []
+          },
+          {
+            "name": "nokianokiac5-03",
+            "value": 144,
+            "children": []
+          },
+          {
+            "name": "nokiax6-00",
+            "value": 154,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": [
+          {
+            "name": "其他",
+            "value": 0,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "AP": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "cmnet",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "cmwap",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "3gnet",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "3gwap",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "uniwap",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "uninet",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "ctwap",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "ctnet",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "wifi",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ]
+  }
+}
+2013-06-27 18:41:37,727 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697727",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 18:41:37,736 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697736",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 18:41:37,743 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697743",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 18:41:37,762 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697761",
+  "error": null,
+  "paging": null,
+  "result": {
+    "pv": 0,
+    "uv": 0,
+    "increaseUser": 0,
+    "onceUser": 0,
+    "onlyLoginUser": 0,
+    "avgUserLogin": 0.0,
+    "avgUserAccess": 0.0,
+    "avgLastTime": 0.0
+  }
+}
+2013-06-27 18:41:37,786 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697783",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 18:41:37,803 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697801",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 18:41:37,810 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697810",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 18:41:37,831 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372329697827",
+  "error": null,
+  "paging": null,
+  "result": [
+    null,
+    {
+      "title": "1次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "2次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "3次",
+      "count": 0,
+      "secondCount": 16,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "4次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "5次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "6次",
+      "count": 0,
+      "secondCount": 7,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "7次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "8次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "9次",
+      "count": 0,
+      "secondCount": 3,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "10次及以上",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    }
+  ]
+}
+2013-06-27 19:16:45,937 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331805912",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 10,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 10
+  },
+  "result": [
+    {
+      "name": "tom.com",
+      "size": 26,
+      "rate": 0.68421054
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "rate": 0.05263158
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "rate": 0.02631579
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "rate": 0.02631579
+    }
+  ]
+}
+2013-06-27 19:16:46,018 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806015",
+  "error": null,
+  "paging": {
+    "pageSize": 5,
+    "totalRecords": 6,
+    "totalPages": 2,
+    "currentPage": 1,
+    "currentRecord": 0,
+    "totalActuals": 6
+  },
+  "result": [
+    {
+      "name": "baidu.com",
+      "size": 9,
+      "rate": 0.47368422
+    },
+    {
+      "name": "qq.com",
+      "size": 5,
+      "rate": 0.2631579
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "rate": 0.10526316
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "rate": 0.05263158
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "rate": 0.05263158
+    }
+  ]
+}
+2013-06-27 19:16:46,051 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806049",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 38,
+    "children": null
+  }
+}
+2013-06-27 19:16:46,060 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806060",
+  "error": null,
+  "paging": null,
+  "result": {
+    "name": "tom.com",
+    "size": 19,
+    "children": null
+  }
+}
+2013-06-27 19:16:46,083 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806076",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "name": "sina.com.cn",
+      "size": 1,
+      "children": [
+        "sinaimg.cn"
+      ]
+    },
+    {
+      "name": "cmread.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "ifeng.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "jiayuan.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sogou.com",
+      "size": 2,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "kanshu.com",
+      "size": 1,
+      "children": [
+        "sogou.com"
+      ]
+    },
+    {
+      "name": "sina.com",
+      "size": 2,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tomonline-inc.com",
+      "size": 1,
+      "children": [
+        "hjsm.net"
+      ]
+    },
+    {
+      "name": "sina.cn",
+      "size": 1,
+      "children": [
+        "weibo.cn"
+      ]
+    },
+    {
+      "name": "163.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "easou.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qzoneapp.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "soso.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "qq.com",
+      "size": 22,
+      "children": [
+        "tom.com",
+        null,
+        "58.com",
+        "qzoneapp.com"
+      ]
+    },
+    {
+      "name": "jjwxc.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "58.com",
+      "size": 1,
+      "children": [
+        "tom.com"
+      ]
+    },
+    {
+      "name": "zol.com",
+      "size": null,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "tom.com",
+      "size": 38,
+      "children": [
+        "ifeng.com",
+        null,
+        "easou.com",
+        "sina.cn",
+        "taobao.com",
+        "hongxiu.com",
+        "sohu.com",
+        "zol.com",
+        "jjwxc.com",
+        "soso.com"
+      ]
+    },
+    {
+      "name": "taobao.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "weibo.cn",
+      "size": 1,
+      "children": [
+        "sina.com.cn"
+      ]
+    },
+    {
+      "name": "hongxiu.com",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "sinaimg.cn",
+      "size": 1,
+      "children": [
+        null
+      ]
+    },
+    {
+      "name": "hjsm.net",
+      "size": 1,
+      "children": [
+        "cmread.com"
+      ]
+    },
+    {
+      "name": "baidu.com",
+      "size": 10,
+      "children": [
+        "sina.com",
+        "tom.com"
+      ]
+    },
+    {
+      "name": "sohu.com",
+      "size": 3,
+      "children": [
+        null
+      ]
+    }
+  ]
+}
+2013-06-27 19:16:46,795 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806732",
+  "error": null,
+  "paging": null,
+  "result": {
+    "LOGS": [
+      {
+        "name": "Tencent-Time",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "Tencent-Total",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "Tencent-Outer",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "Tom",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "Xpress-Browser",
+        "value": 5,
+        "children": []
+      }
+    ],
+    "CHANNEL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-7",
+        "value": 39,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-7",
+        "value": 40,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-7",
+        "value": 41,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-7",
+        "value": 42,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-10",
+        "value": 43,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-10",
+        "value": 44,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-10",
+        "value": 45,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-1",
+        "value": 46,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-1",
+        "value": 47,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-1",
+        "value": 48,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-1",
+        "value": 49,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-12",
+        "value": 50,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-12",
+        "value": 51,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-13",
+        "value": 52,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-13",
+        "value": 53,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-13",
+        "value": 54,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-14",
+        "value": 55,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-14",
+        "value": 56,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-14",
+        "value": 57,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-15",
+        "value": 58,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-15",
+        "value": 59,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-16",
+        "value": 60,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-16",
+        "value": 61,
+        "children": []
+      },
+      {
+        "name": "S40-Other3-20",
+        "value": 62,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-20",
+        "value": 63,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-20",
+        "value": 64,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-20",
+        "value": 65,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-2",
+        "value": 66,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-2",
+        "value": 67,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-2",
+        "value": 68,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-3",
+        "value": 69,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-3",
+        "value": 70,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-3",
+        "value": 71,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-4",
+        "value": 72,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-4",
+        "value": 73,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-4",
+        "value": 74,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-5",
+        "value": 75,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-5",
+        "value": 76,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-5",
+        "value": 77,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-6",
+        "value": 78,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-6",
+        "value": 79,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-6",
+        "value": 80,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-8",
+        "value": 81,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-8",
+        "value": 82,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3-8",
+        "value": 83,
+        "children": []
+      },
+      {
+        "name": "S60V3-Other3-9",
+        "value": 84,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3-9",
+        "value": 85,
+        "children": []
+      },
+      {
+        "name": "S60V5-preload",
+        "value": 86,
+        "children": []
+      },
+      {
+        "name": "S60V5-Tencent",
+        "value": 87,
+        "children": []
+      },
+      {
+        "name": "S60V5-Noki.mobi",
+        "value": 88,
+        "children": []
+      },
+      {
+        "name": "S60V5-Ovistore",
+        "value": 89,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other",
+        "value": 90,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other1",
+        "value": 91,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other2",
+        "value": 92,
+        "children": []
+      },
+      {
+        "name": "S60V5-Other3",
+        "value": 93,
+        "children": []
+      },
+      {
+        "name": "Symbian3-preload",
+        "value": 94,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Tencent",
+        "value": 95,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Noki.mobi",
+        "value": 96,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Ovistore",
+        "value": 97,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other",
+        "value": 98,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other1",
+        "value": 99,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other2",
+        "value": 100,
+        "children": []
+      },
+      {
+        "name": "Symbian3-Other3",
+        "value": 101,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "OPERATOR": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "移通",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "电信",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "联通",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "网通",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "铁通",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "移动",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "方正宽带",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "教育网",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "歌华",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "电信通",
+        "value": 10,
+        "children": []
+      },
+      {
+        "name": "有线通",
+        "value": 11,
+        "children": []
+      },
+      {
+        "name": "广电",
+        "value": 12,
+        "children": []
+      },
+      {
+        "name": "长城宽带",
+        "value": 13,
+        "children": []
+      },
+      {
+        "name": "航数宽网",
+        "value": 14,
+        "children": []
+      },
+      {
+        "name": "油田宽带",
+        "value": 15,
+        "children": []
+      },
+      {
+        "name": "蓝波宽带",
+        "value": 16,
+        "children": []
+      },
+      {
+        "name": "视讯宽带",
+        "value": 17,
+        "children": []
+      },
+      {
+        "name": "世纪互联",
+        "value": 18,
+        "children": []
+      },
+      {
+        "name": "华数宽带",
+        "value": 19,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": []
+      }
+    ],
+    "PLATFORMTERMINAL": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "s40",
+        "value": 1,
+        "children": [
+          {
+            "name": "gt-i6330c",
+            "value": 12,
+            "children": []
+          },
+          {
+            "name": "nokia2220s",
+            "value": 14,
+            "children": []
+          },
+          {
+            "name": "nokia2322c",
+            "value": 15,
+            "children": []
+          },
+          {
+            "name": "nokia2690",
+            "value": 16,
+            "children": []
+          },
+          {
+            "name": "nokia2700c",
+            "value": 17,
+            "children": []
+          },
+          {
+            "name": "nokia2710c",
+            "value": 18,
+            "children": []
+          },
+          {
+            "name": "nokia2730c",
+            "value": 19,
+            "children": []
+          },
+          {
+            "name": "nokia2730c-1",
+            "value": 20,
+            "children": []
+          },
+          {
+            "name": "nokia3030",
+            "value": 21,
+            "children": []
+          },
+          {
+            "name": "nokia3050",
+            "value": 22,
+            "children": []
+          },
+          {
+            "name": "nokia3110c",
+            "value": 23,
+            "children": []
+          },
+          {
+            "name": "nokia3208c",
+            "value": 24,
+            "children": []
+          },
+          {
+            "name": "nokia3720c",
+            "value": 25,
+            "children": []
+          },
+          {
+            "name": "nokia5130",
+            "value": 27,
+            "children": []
+          },
+          {
+            "name": "nokia5130c-2",
+            "value": 28,
+            "children": []
+          },
+          {
+            "name": "nokia5132",
+            "value": 29,
+            "children": []
+          },
+          {
+            "name": "nokia5200",
+            "value": 30,
+            "children": []
+          },
+          {
+            "name": "nokia5300",
+            "value": 38,
+            "children": []
+          },
+          {
+            "name": "nokia5330",
+            "value": 42,
+            "children": []
+          },
+          {
+            "name": "nokia6208c",
+            "value": 67,
+            "children": []
+          },
+          {
+            "name": "nokia6280",
+            "value": 71,
+            "children": []
+          },
+          {
+            "name": "nokia6300",
+            "value": 72,
+            "children": []
+          },
+          {
+            "name": "nokia6303c",
+            "value": 73,
+            "children": []
+          },
+          {
+            "name": "nokia6303ci",
+            "value": 74,
+            "children": []
+          },
+          {
+            "name": "nokia6500s-1",
+            "value": 75,
+            "children": []
+          },
+          {
+            "name": "nokia7230",
+            "value": 81,
+            "children": []
+          },
+          {
+            "name": "nokia7610s",
+            "value": 82,
+            "children": []
+          },
+          {
+            "name": "nokia7610supernova",
+            "value": 83,
+            "children": []
+          },
+          {
+            "name": "nokiac1-01",
+            "value": 84,
+            "children": []
+          },
+          {
+            "name": "nokiac1-02",
+            "value": 85,
+            "children": []
+          },
+          {
+            "name": "nokiac1-03",
+            "value": 86,
+            "children": []
+          },
+          {
+            "name": "nokiac2-00",
+            "value": 87,
+            "children": []
+          },
+          {
+            "name": "nokiac2-01",
+            "value": 88,
+            "children": []
+          },
+          {
+            "name": "nokiac2-05",
+            "value": 89,
+            "children": []
+          },
+          {
+            "name": "nokiac2-07",
+            "value": 90,
+            "children": []
+          },
+          {
+            "name": "nokiac2-08",
+            "value": 91,
+            "children": []
+          },
+          {
+            "name": "nokiac3-00",
+            "value": 92,
+            "children": []
+          },
+          {
+            "name": "nokiac3-01",
+            "value": 93,
+            "children": []
+          },
+          {
+            "name": "nokian70-1",
+            "value": 116,
+            "children": []
+          },
+          {
+            "name": "nokian72",
+            "value": 117,
+            "children": []
+          },
+          {
+            "name": "nokiax2-00",
+            "value": 147,
+            "children": []
+          },
+          {
+            "name": "nokiax2-01",
+            "value": 148,
+            "children": []
+          },
+          {
+            "name": "nokiax2-03",
+            "value": 149,
+            "children": []
+          },
+          {
+            "name": "nokiax2-05",
+            "value": 150,
+            "children": []
+          },
+          {
+            "name": "nokiax3-00",
+            "value": 151,
+            "children": []
+          },
+          {
+            "name": "nokiax3-02",
+            "value": 152,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60V3",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "S60V5",
+        "value": 3,
+        "children": [
+          {
+            "name": "(c)nokia5630d-1",
+            "value": 1,
+            "children": []
+          },
+          {
+            "name": "(c)nokia6700s",
+            "value": 2,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae52-1",
+            "value": 3,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72",
+            "value": 4,
+            "children": []
+          },
+          {
+            "name": "(c)nokiae72-1",
+            "value": 5,
+            "children": []
+          },
+          {
+            "name": "(c)nokian78",
+            "value": 6,
+            "children": []
+          },
+          {
+            "name": "(c)nokian85",
+            "value": 7,
+            "children": []
+          },
+          {
+            "name": "(c)nokianxx",
+            "value": 8,
+            "children": []
+          },
+          {
+            "name": "e63",
+            "value": 9,
+            "children": []
+          },
+          {
+            "name": "e66",
+            "value": 10,
+            "children": []
+          },
+          {
+            "name": "e71",
+            "value": 11,
+            "children": []
+          },
+          {
+            "name": "n96",
+            "value": 13,
+            "children": []
+          },
+          {
+            "name": "nokia5320(19.01)",
+            "value": 39,
+            "children": []
+          },
+          {
+            "name": "nokia5320di",
+            "value": 40,
+            "children": []
+          },
+          {
+            "name": "nokia5320dixpressmusic(19.01)",
+            "value": 41,
+            "children": []
+          },
+          {
+            "name": "nokia5630",
+            "value": 44,
+            "children": []
+          },
+          {
+            "name": "nokia5630d-1",
+            "value": 45,
+            "children": []
+          },
+          {
+            "name": "nokia5700",
+            "value": 46,
+            "children": []
+          },
+          {
+            "name": "nokia5700ba13.02",
+            "value": 47,
+            "children": []
+          },
+          {
+            "name": "nokia5730s-1",
+            "value": 48,
+            "children": []
+          },
+          {
+            "name": "nokia6120c",
+            "value": 53,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(14.01)",
+            "value": 54,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b11.01)",
+            "value": 55,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b12.01)",
+            "value": 56,
+            "children": []
+          },
+          {
+            "name": "nokia6120c(b14.01)",
+            "value": 57,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.01",
+            "value": 58,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.02",
+            "value": 59,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.03",
+            "value": 60,
+            "children": []
+          },
+          {
+            "name": "nokia6120cap13.04",
+            "value": 61,
+            "children": []
+          },
+          {
+            "name": "nokia6120ci",
+            "value": 62,
+            "children": []
+          },
+          {
+            "name": "nokia6120ciap24.02",
+            "value": 63,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.01",
+            "value": 64,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.03",
+            "value": 65,
+            "children": []
+          },
+          {
+            "name": "nokia6120cib11.04",
+            "value": 66,
+            "children": []
+          },
+          {
+            "name": "nokia6210navigator",
+            "value": 68,
+            "children": []
+          },
+          {
+            "name": "nokia6210s(19.01)",
+            "value": 69,
+            "children": []
+          },
+          {
+            "name": "nokia6220c-1",
+            "value": 70,
+            "children": []
+          },
+          {
+            "name": "nokia6700s",
+            "value": 76,
+            "children": []
+          },
+          {
+            "name": "nokia6760s-1",
+            "value": 77,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00",
+            "value": 94,
+            "children": []
+          },
+          {
+            "name": "nokiac5-00i",
+            "value": 95,
+            "children": []
+          },
+          {
+            "name": "nokiac5-01",
+            "value": 96,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00",
+            "value": 103,
+            "children": []
+          },
+          {
+            "name": "nokiae5-00m",
+            "value": 104,
+            "children": []
+          },
+          {
+            "name": "nokiae51",
+            "value": 105,
+            "children": []
+          },
+          {
+            "name": "nokiae51(14)",
+            "value": 106,
+            "children": []
+          },
+          {
+            "name": "nokiae52-1",
+            "value": 107,
+            "children": []
+          },
+          {
+            "name": "nokiae61",
+            "value": 109,
+            "children": []
+          },
+          {
+            "name": "nokiae63",
+            "value": 110,
+            "children": []
+          },
+          {
+            "name": "nokiae65",
+            "value": 111,
+            "children": []
+          },
+          {
+            "name": "nokiae66",
+            "value": 112,
+            "children": []
+          },
+          {
+            "name": "nokiae71",
+            "value": 114,
+            "children": []
+          },
+          {
+            "name": "nokiae72-1",
+            "value": 115,
+            "children": []
+          },
+          {
+            "name": "nokian73",
+            "value": 118,
+            "children": []
+          },
+          {
+            "name": "nokian73(16)",
+            "value": 119,
+            "children": []
+          },
+          {
+            "name": "nokian73(a1.01)",
+            "value": 120,
+            "children": []
+          },
+          {
+            "name": "nokian73(s4.02)",
+            "value": 121,
+            "children": []
+          },
+          {
+            "name": "nokian76",
+            "value": 122,
+            "children": []
+          },
+          {
+            "name": "nokian76(14.01)",
+            "value": 123,
+            "children": []
+          },
+          {
+            "name": "nokian78",
+            "value": 124,
+            "children": []
+          },
+          {
+            "name": "nokian79",
+            "value": 125,
+            "children": []
+          },
+          {
+            "name": "nokian80",
+            "value": 127,
+            "children": []
+          },
+          {
+            "name": "nokian81",
+            "value": 128,
+            "children": []
+          },
+          {
+            "name": "nokian81(14.01)",
+            "value": 129,
+            "children": []
+          },
+          {
+            "name": "nokian82",
+            "value": 130,
+            "children": []
+          },
+          {
+            "name": "nokian85",
+            "value": 131,
+            "children": []
+          },
+          {
+            "name": "nokian868mp",
+            "value": 132,
+            "children": []
+          },
+          {
+            "name": "nokian95",
+            "value": 133,
+            "children": []
+          },
+          {
+            "name": "nokian95(12.01)",
+            "value": 134,
+            "children": []
+          },
+          {
+            "name": "nokian95(15.01)",
+            "value": 135,
+            "children": []
+          },
+          {
+            "name": "nokian95(b5.01)",
+            "value": 136,
+            "children": []
+          },
+          {
+            "name": "nokian95(d6.01)",
+            "value": 137,
+            "children": []
+          },
+          {
+            "name": "nokian95_8gb",
+            "value": 138,
+            "children": []
+          },
+          {
+            "name": "nokianokia5320",
+            "value": 141,
+            "children": []
+          },
+          {
+            "name": "nokianokia6210s",
+            "value": 142,
+            "children": []
+          },
+          {
+            "name": "nokianokia6788i",
+            "value": 143,
+            "children": []
+          },
+          {
+            "name": "nokianokian81",
+            "value": 145,
+            "children": []
+          },
+          {
+            "name": "nokianokian96",
+            "value": 146,
+            "children": []
+          },
+          {
+            "name": "nokiax5-01",
+            "value": 153,
+            "children": []
+          },
+          {
+            "name": "s60",
+            "value": 156,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Symbian3",
+        "value": 4,
+        "children": [
+          {
+            "name": "nokia5230",
+            "value": 31,
+            "children": []
+          },
+          {
+            "name": "nokia5232",
+            "value": 32,
+            "children": []
+          },
+          {
+            "name": "nokia5233",
+            "value": 33,
+            "children": []
+          },
+          {
+            "name": "nokia5235",
+            "value": 34,
+            "children": []
+          },
+          {
+            "name": "nokia5236",
+            "value": 35,
+            "children": []
+          },
+          {
+            "name": "nokia5238",
+            "value": 36,
+            "children": []
+          },
+          {
+            "name": "nokia5250",
+            "value": 37,
+            "children": []
+          },
+          {
+            "name": "nokia5800ixpressmusic",
+            "value": 49,
+            "children": []
+          },
+          {
+            "name": "nokia5800wxpressmusic",
+            "value": 50,
+            "children": []
+          },
+          {
+            "name": "nokia5800xpressmusic",
+            "value": 51,
+            "children": []
+          },
+          {
+            "name": "nokiac5-03",
+            "value": 97,
+            "children": []
+          },
+          {
+            "name": "nokiac5-05",
+            "value": 98,
+            "children": []
+          },
+          {
+            "name": "nokiac5-06",
+            "value": 99,
+            "children": []
+          },
+          {
+            "name": "nokiac6-00",
+            "value": 100,
+            "children": []
+          },
+          {
+            "name": "nokian97",
+            "value": 139,
+            "children": []
+          },
+          {
+            "name": "nokian97mini",
+            "value": 140,
+            "children": []
+          },
+          {
+            "name": "nokianokiac5-03",
+            "value": 144,
+            "children": []
+          },
+          {
+            "name": "nokiax6-00",
+            "value": 154,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "S60",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "其他",
+        "value": 0,
+        "children": [
+          {
+            "name": "其他",
+            "value": 0,
+            "children": []
+          }
+        ]
+      }
+    ],
+    "AP": [
+      {
+        "name": "全部",
+        "value": -1,
+        "children": []
+      },
+      {
+        "name": "cmnet",
+        "value": 1,
+        "children": []
+      },
+      {
+        "name": "cmwap",
+        "value": 2,
+        "children": []
+      },
+      {
+        "name": "3gnet",
+        "value": 3,
+        "children": []
+      },
+      {
+        "name": "3gwap",
+        "value": 4,
+        "children": []
+      },
+      {
+        "name": "uniwap",
+        "value": 5,
+        "children": []
+      },
+      {
+        "name": "uninet",
+        "value": 6,
+        "children": []
+      },
+      {
+        "name": "ctwap",
+        "value": 7,
+        "children": []
+      },
+      {
+        "name": "ctnet",
+        "value": 8,
+        "children": []
+      },
+      {
+        "name": "wifi",
+        "value": 9,
+        "children": []
+      },
+      {
+        "name": "other",
+        "value": 0,
+        "children": []
+      }
+    ]
+  }
+}
+2013-06-27 19:16:46,841 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806841",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 19:16:46,888 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806887",
+  "error": null,
+  "paging": null,
+  "result": [
+    null,
+    {
+      "title": "1次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "2次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "3次",
+      "count": 0,
+      "secondCount": 16,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "4次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "5次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "6次",
+      "count": 0,
+      "secondCount": 7,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "7次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "8次",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "9次",
+      "count": 0,
+      "secondCount": 3,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    },
+    {
+      "title": "10次及以上",
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": null,
+      "endDate": null
+    }
+  ]
+}
+2013-06-27 19:16:46,899 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806899",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 19:16:46,914 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806914",
+  "error": null,
+  "paging": null,
+  "result": []
+}
+2013-06-27 19:16:46,922 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806922",
+  "error": null,
+  "paging": null,
+  "result": null
+}
+2013-06-27 19:16:46,971 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331806967",
+  "error": null,
+  "paging": null,
+  "result": {
+    "pv": 0,
+    "uv": 0,
+    "increaseUser": 0,
+    "onceUser": 0,
+    "onlyLoginUser": 0,
+    "avgUserLogin": 0.0,
+    "avgUserAccess": 0.0,
+    "avgLastTime": 0.0
+  }
+}
+2013-06-27 19:16:47,012 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331807000",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}
+2013-06-27 19:16:47,031 ERROR [ApiAbstractTestCase.java:162] - {
+  "timestamp": "1372331807028",
+  "error": null,
+  "paging": null,
+  "result": [
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 0,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 1,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 2,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 3,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 4,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 5,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 6,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 7,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 8,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 9,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 10,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 11,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 12,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 13,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 14,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 15,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 16,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 17,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 18,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 19,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 20,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 21,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 22,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    },
+    {
+      "title": null,
+      "count": 0,
+      "secondCount": 0,
+      "hour": 23,
+      "beginDate": "2013-05-02 00:00:00.0",
+      "endDate": "2013-05-02 00:00:00.0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tabel name="App" index = "0">
+		<column description="状态" fieldName="status" />
+		<column description="应用名称" fieldName="name" />
+		<column description="类型" fieldName="platform" />
+		<column description="广告请求" fieldName="name" />
+		<column description="展示" fieldName="status" />
+	</tabel>
+	<table></table>
+</root>

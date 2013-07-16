@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<tabel name="App" index = "0">
+		<column description="状态" fieldName="status" />
+		<column description="应用名称" fieldName="name" />
+		<column description="类型" fieldName="platform" />
+		<column description="广告请求" fieldName="name" />
+		<column description="展示" fieldName="status" />
+	</tabel>
+	<tabel name="TrendTable1" index="1">
+		<column description="时段" fieldName="period" />
+		<column description="WEB_PV" fieldName="webPv" />
+		<column description="WAP_PV" fieldName="wapPv" />
+		<column description="UV" fieldName="uv" />
+		<column description="新用户数" fieldName="newUserNum" />
+	</tabel>
+	<tabel name="TrendTable2" index="2">
+		<column description="日期" fieldName="period" />
+		<column description="WEB_PV" fieldName="webPv" />
+		<column description="WAP_PV" fieldName="wapPv" />
+		<column description="UV" fieldName="uv" />
+		<column description="新用户数" fieldName="newUserNum" />
+	</tabel>
+</root>
